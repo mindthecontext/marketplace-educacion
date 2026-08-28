@@ -1,0 +1,33 @@
+{
+  "name": "MindTheContext · Educación",
+  "owner": {
+    "name": "MindTheContext"
+  },
+  "metadata": {
+    "description": "Saberes para la sala de clases: criterio didactico sobre el curriculum chileno, con la procedencia a la vista."
+  },
+  "plugins": [
+    {
+      "name": "aliado-docente",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/mindthecontext/plugin-aliado-docente.git",
+        "path": "claude",
+        "ref": "v0.12.0"
+      },
+      "description": "Criterio didáctico sobre el currículum chileno de Matemática y Lenguaje: qué deben dominar antes, dónde se atasca el curso y cómo notarlo, con qué remediarlo y con qué respaldo normativo.",
+      "category": "education"
+    },
+    {
+      "name": "mi-cuenta-mindthecontext",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/mindthecontext/plugin-mi-cuenta.git",
+        "path": "claude",
+        "ref": "v1.1.0"
+      },
+      "description": "Qué identidad reconoce MindTheContext para esta cuenta y qué servicios tiene habilitados, con el diagnóstico de por qué uno no está disponible.",
+      "category": "productivity"
+    }
+  ]
+}
