@@ -6,6 +6,11 @@
 #
 # Publico: un colegio tiene que poder resolverlo sin cuenta de GitHub.
 
+# El identificador que Claude Code exige: kebab-case, sin espacios. NO es el título — ese
+# vive en `descripcion`, que es lo que el cliente muestra.
+identificador: mindthecontext-educacion
+
+# Título legible. Sólo informativo dentro de este archivo.
 nombre: MindTheContext · Educación
 descripcion: >-
   Saberes para la sala de clases: criterio didactico sobre el curriculum chileno, con la procedencia a la vista.
