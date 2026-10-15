@@ -24,7 +24,7 @@
         "source": "git-subdir",
         "url": "https://github.com/mindthecontext/plugin-matricula-ed-superior.git",
         "path": "claude",
-        "ref": "v0.39.1"
+        "ref": "v0.40.0"
       },
       "description": "Quién estudia qué en la educación superior chilena, dónde, con qué perfil y en qué termina: matrícula, selectividad, equidad y trayectorias, con cada cifra trazable a su fuente.",
       "category": "education"
