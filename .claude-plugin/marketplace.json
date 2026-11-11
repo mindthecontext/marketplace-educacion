@@ -30,6 +30,17 @@
       "category": "education"
     },
     {
+      "name": "matricula-escolar",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/mindthecontext/plugin-matricula-escolar.git",
+        "path": "claude",
+        "ref": "v0.26.1"
+      },
+      "description": "Matrícula escolar en Chile por colegio, comuna y red, 2004–2025: quién llega, quién se va y adónde, con divulgación aplicada y trazabilidad a los datos abiertos del Mineduc.",
+      "category": "productivity"
+    },
+    {
       "name": "mi-cuenta-mindthecontext",
       "source": {
         "source": "git-subdir",
