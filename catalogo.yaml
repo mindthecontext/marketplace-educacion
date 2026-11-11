@@ -15,7 +15,8 @@ nombre: MindTheContext · Educación
 descripcion: >-
   Saberes para la sala de clases: criterio didactico sobre el curriculum chileno, con la procedencia a la vista.
 
-# La variante que sirve. Claude y Codex piden manifiestos distintos y el paquete publica las dos;
-# este catálogo elige una. Un catálogo para Codex es OTRO repositorio con `variante: codex`, no
-# un cambio en el script.
-variante: claude
+# La variante que sirve. `universal` (mcp-compartido#119): la carpeta con los manifiestos de Claude y
+# de Codex y las skills con `name:`, que sirve a Claude Y al workspace de ChatGPT desde la misma
+# entrada. Cada entrada sirve `universal/` en las versiones que la traen y `claude/` en las
+# anteriores; la carpeta cambia sola al promover.
+variante: universal
